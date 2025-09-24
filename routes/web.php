@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/demo', function () {
 echo "Hello, This is a demo page!";
 });
+
+Route::post("/test", function () {
+    echo "Hello, This is a test page!";
+});
